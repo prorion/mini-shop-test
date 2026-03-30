@@ -28,6 +28,8 @@ const queryClient = new QueryClient({
     },
   },
 });
+// 주석을 추가합니다.
+// 하하하
 
 function App() {
   return (
