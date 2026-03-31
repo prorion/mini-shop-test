@@ -16,7 +16,7 @@ export interface Product {
 }
 
 // 상품 목록용 간략 정보
-export type ProductSummary = Pick<Product, 'id' | 'name' | 'price' | 'image'>;
+export type ProductSummary = Pick<Product, 'id' | 'name' | 'price' | 'image'> ;
 
 // 장바구니 아이템
 export interface CartItem {
@@ -26,7 +26,7 @@ export interface CartItem {
 
 // 사용자
 export interface User {
-  id: number;
+  id: number;;
   email: string;
   name: string;
   phone?: string;
