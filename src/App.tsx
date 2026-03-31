@@ -47,6 +47,10 @@ function App() {
                 <Route path="signup" element={<Signup />} />
 
                 {/* Protected Routes */}
+                {/* Protected Routes */}
+                {/* Protected Routes */}
+                {/* Protected Routes */}
+                {/* Protected Routes */}
                 <Route
                   path="checkout"
                   element={
