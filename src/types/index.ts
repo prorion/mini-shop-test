@@ -26,7 +26,7 @@ export interface CartItem {
 
 // 사용자
 export interface User {
-  id: number;;
+  id: number;
   email: string;
   name: string;
   phone?: string;

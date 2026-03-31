@@ -17,6 +17,7 @@ export default function Checkout() {
   const navigate = useNavigate();
   const { user } = useAuth();
   const { items, subtotal, shippingFee, total, clearCart } = useCart();
+  const forcedLintError = 'trigger lint error';
 
   const [name, setName] = useState(user?.name || '');
   const [phone, setPhone] = useState(user?.phone || '');
